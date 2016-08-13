@@ -220,8 +220,7 @@ or
 
 .. code-block:: python
 
-    >>> a = values[0]
-    >>> b = values[1]
+    >>> a, b = values[:2]
 
 Python 3 now allows users to use the ``*variable`` syntax (similar to ``*args``
 in function arguments) to avoid having to write out as many variables than items
